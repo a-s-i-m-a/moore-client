@@ -1,0 +1,11 @@
+.filter-value {
+    color: #8C8E90;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ECECEE;
+}
+
+.active-filter {
+    color: #4d4aea;
+    border-bottom: 2px solid #4d4aea;
+}

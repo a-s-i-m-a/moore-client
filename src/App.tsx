@@ -7,21 +7,21 @@ import {
     Route,
 } from "react-router-dom";
 
-import Sidebar from "./components/Sidebar";
+import ApartmentsPage from "./pages/Apartments";
+import ManagersPage from "./pages/Managers";
+import LoginPage from "./pages/Login";
+
 
 const App: React.FC = () => {
     return (
         <BrowserRouter>
             <div className="container-fluid">
                 <div className="row">
-                    <Sidebar />
                     <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                         <Routes>
-                            {/*<Route path="/reports" element={ReportsPage} />*/}
-                            <Route path="/apartments" element={'kjjkku'} />
-                            {/*<Route path="/managers" element={ManagersPage} />*/}
-                            {/*<Route path="/bookings" element={BookingsPage} />*/}
-                            {/*<Route path="/" element={HomePage} />*/}
+                            <Route path="/" element={<LoginPage />} />
+                            <Route path="/apartments" element={<ApartmentsPage />} />
+                            <Route path="/managers" element={<ManagersPage/>} />
                         </Routes>
                     </main>
                 </div>

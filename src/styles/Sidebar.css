@@ -1,17 +1,23 @@
 .sidebar {
     box-shadow: 4px 0 12px -2px rgba(0, 0, 0, 0.3), -4px 0 12px -2px rgba(0, 0, 0, 0.3);
     height: 100vh;
-    padding-top: 15px;
+    padding: 30px 5px;
 }
 
 .sidebar a.nav-link {
     color: black;
     font-size: 16px;
     line-height: 19px;
+    font-weight: 300;
+    margin: 5px 20px;
 }
 
-.sidebar a.nav-link:hover {
+.sidebar a.nav-link.notifications {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.sidebar .nav-item.active{
     background-color: #bfc4f6;
-    color: white;
-    border-radius: 8px;
+    border-radius: 12px;
 }
