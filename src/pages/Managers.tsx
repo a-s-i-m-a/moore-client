@@ -16,7 +16,7 @@ const ManagersPage: React.FC = observer(() => {
         <>
             <Sidebar/>
             <div className="managers-list">
-                <h2 className="mx-5 title">Менеджеры</h2>
+                <h2 className="title">Менеджеры</h2>
                 <hr/>
                 <table className="table table-striped">
                     <thead>

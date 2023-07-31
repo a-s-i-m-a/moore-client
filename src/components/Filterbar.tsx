@@ -16,13 +16,13 @@ const FilterBar: React.FC = () => {
                 Все
             </button>
             <button
-                className={`filter-value ${activeFilter === 'Prime City' ? 'active-filter' : ''}`}
+                className={`filter-value  ${activeFilter === 'Prime City' ? 'active-filter' : ''}`}
                 onClick={() => handleFilterClick('Prime City')}
             >
                 Prime City
             </button>
             <button
-                className={`filter-value ${activeFilter === 'Kochmon City' ? 'active-filter' : ''}`}
+                className={`filter-value  ${activeFilter === 'Kochmon City' ? 'active-filter' : ''}`}
                 onClick={() => handleFilterClick('Kochmon City')}
             >
                 Kochmon City

@@ -3,9 +3,19 @@
     background: transparent;
     border: none;
     border-bottom: 2px solid #ECECEE;
+    font-weight: 400;
+    padding: 0 10px;
 }
 
 .active-filter {
     color: #4d4aea;
     border-bottom: 2px solid #4d4aea;
+}
+
+.add-apartment {
+    background: #D1F4D9;
+    color: #435848;
+    border: none;
+    padding:  10px 20px;
+    border-radius: 5px;
 }

@@ -25,12 +25,14 @@ const ApartmentsPage: React.FC = observer(() => {
     return (<>
         <Sidebar />
             <div className="apartments-list">
-                <h2 className="mx-5 title">Квартиры</h2>
+                <h2 className="title">Квартиры</h2>
                 <hr/>
-                <FilterBar />
-                <button onClick={handleAddClick}  className="btn btn-success mb-3">
-                    Добавить
-                </button>
+               <div className="d-flex justify-content-between my-3 align-items-center">
+                   <FilterBar />
+                   <button onClick={handleAddClick}  className="add-apartment">
+                       Добавить
+                   </button>
+               </div>
                 <table className="table table-striped">
                     <thead>
                     <tr>
